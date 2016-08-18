@@ -1,0 +1,36 @@
+@relation 'ipo3-weka.filters.unsupervised.attribute.Remove-R1-2,6,8,10,12-weka.filters.unsupervised.instance.Resample-S1-Z20.0-no-replacement'
+
+@attribute 1_day numeric
+@attribute 30_day numeric
+@attribute 60_day numeric
+@attribute month numeric
+@attribute underwriter {barclays,'BofA Merrill Lynch',citi,'Credit Suisse','Deutsche Bank?','Goldman Sach','J.P. Morgan','Morgan Stanley',other}
+@attribute grade1 {T,F}
+
+@data
+3.33,25.08,46.77,1,barclays,T
+4.29,11.9,27.14,1,barclays,T
+-7.14,14,8.14,1,barclays,T
+29.71,33.71,89.21,9,'BofA Merrill Lynch',T
+0.31,5.69,42.06,11,'BofA Merrill Lynch',T
+5,12.44,22.22,12,citi,T
+8.5,43,40.57,2,citi,F
+0,8.89,16.72,11,'Credit Suisse',T
+18.98,51.78,108.2,11,'Credit Suisse',T
+19.17,10.92,4.42,3,'Credit Suisse',F
+0,-6.1,-0.38,10,'Goldman Sach',T
+89.33,76,76.87,11,'Goldman Sach',F
+72.69,72.88,154.96,11,'Goldman Sach',F
+-0.83,12.08,6.75,1,'Goldman Sach',F
+47.12,59.76,67.29,10,'J.P. Morgan',T
+-5.31,21.25,-5.06,2,'J.P. Morgan',T
+12.92,26.83,46,10,'J.P. Morgan',T
+-1.15,44.79,51.7,11,'J.P. Morgan',T
+67.81,114.69,81.25,2,other,F
+30.5,147.17,147.83,2,other,T
+-2.17,-1.75,-23.75,9,other,F
+96.39,71.5,46.22,9,other,F
+26.79,31.64,57.64,1,other,T
+7,8,40,11,other,T
+28,43.3,85,9,other,T
+0,45,12.38,2,other,F

@@ -1,0 +1,93 @@
+@relation 'ipo3-weka.filters.unsupervised.attribute.Remove-R1-2,6,8,10,12-weka.filters.unsupervised.instance.Resample-S1-Z20.0-no-replacement-V-weka.filters.unsupervised.instance.Resample-S1-Z80.0-no-replacement'
+
+@attribute 1_day numeric
+@attribute 30_day numeric
+@attribute 60_day numeric
+@attribute month numeric
+@attribute underwriter {barclays,'BofA Merrill Lynch',citi,'Credit Suisse','Deutsche Bank?','Goldman Sach','J.P. Morgan','Morgan Stanley',other}
+@attribute grade1 {T,F}
+
+@data
+18.2,26.45,23.41,10,barclays,T
+-7.5,-10.6,-12.3,10,barclays,T
+2.25,41.25,49,1,barclays,T
+-8.43,21.36,24.79,11,barclays,F
+0,2.18,11.59,10,barclays,T
+-1.39,-5.72,-1.94,10,barclays,T
+2,0.9,2,10,'BofA Merrill Lynch',T
+13.29,18,32.35,10,'BofA Merrill Lynch',T
+-3.28,0,9.78,11,'BofA Merrill Lynch',T
+119.79,89.57,101.93,10,'BofA Merrill Lynch',F
+14.06,7.62,5.62,10,'BofA Merrill Lynch',F
+28.4,51.13,95.6,11,'BofA Merrill Lynch',F
+9.55,17.77,13.64,10,'BofA Merrill Lynch',T
+0.2,0.2,0.4,11,citi,T
+8.5,52.6,41,2,citi,T
+11.83,14.33,17.25,10,citi,T
+-8.33,87.08,48.92,2,citi,T
+-3.13,16.12,22.37,11,citi,T
+5,5.63,-3.17,1,citi,F
+-9.6,-7.65,-4.3,1,'Credit Suisse',T
+51.64,61.45,59.82,12,'Credit Suisse',T
+76.88,82.71,81.82,12,'Deutsche Bank?',T
+-5.5,-8,-7.5,11,'Deutsche Bank?',F
+7.5,8.45,7.05,12,'Deutsche Bank?',T
+17.27,54.09,59.27,11,'Deutsche Bank?',T
+19.35,19.7,25.25,11,'Deutsche Bank?',F
+-0.06,9.41,9.24,2,'Deutsche Bank?',T
+0.2,0.6,0.5,1,'Deutsche Bank?',T
+13.5,23.9,32.25,12,'Goldman Sach',T
+-3.9,-6,-8.2,12,'Goldman Sach',T
+-6.25,3.42,19.58,10,'Goldman Sach',T
+23.53,27.88,39.12,10,'Goldman Sach',F
+0.77,7.77,11.15,10,'Goldman Sach',T
+61.57,81.71,116.95,12,'Goldman Sach',F
+40,42.69,22.62,9,'Goldman Sach',F
+87.5,28.75,11,3,'Goldman Sach',F
+43.3,52.7,19.8,11,'Goldman Sach',F
+1.25,-11,-31.83,2,'Goldman Sach',F
+71.36,79.95,81.91,11,'Goldman Sach',F
+101.19,165.52,144.38,1,'J.P. Morgan',T
+-6.67,-2.67,3.47,11,'J.P. Morgan',T
+14.16,16.45,9.68,10,'J.P. Morgan',F
+28.33,63.58,75,11,'J.P. Morgan',T
+101.11,126.06,158.94,11,'J.P. Morgan',F
+21.74,39.96,49.87,12,'J.P. Morgan',T
+-2,-5.3,-16.7,1,'J.P. Morgan',F
+19.72,27.89,110.28,11,'Morgan Stanley',T
+-4.5,2.2,8.2,11,'Morgan Stanley',T
+9.73,135.64,172.18,11,'Morgan Stanley',T
+22.73,25.73,38.09,10,'Morgan Stanley',T
+100,59.45,13.32,2,'Morgan Stanley',F
+1.92,-0.15,8.85,10,'Morgan Stanley',F
+42.94,34.65,-2.76,1,'Morgan Stanley',F
+41.88,92.41,129.24,10,'Morgan Stanley',T
+-0.4,23.6,25.7,9,other,T
+1.31,-4.11,10.18,10,other,T
+6.1,16.4,69.8,10,other,T
+23.1,44.6,30.9,9,other,F
+0,2.22,-1.04,12,other,T
+0.1,0.6,0.2,10,other,T
+70.71,82.14,180.43,12,other,T
+29,56.67,68.73,10,other,T
+7.69,0.77,-6.04,11,other,F
+19.55,54.55,15.77,9,other,T
+6.5,24,16.55,1,other,T
+5.77,5.27,13.68,9,other,T
+0.5,0.5,0.8,10,other,T
+17.36,71.64,75,1,other,F
+-2.56,1.54,-0.21,12,other,F
+-8.54,-29,-10.85,10,other,F
+0,0.6,0.3,2,other,T
+206.67,144.8,88.33,1,other,F
+13.15,42.38,16.54,2,other,F
+0,24.92,6.5,2,other,F
+-22,-21.89,-63.44,9,other,F
+-14.47,-3.33,-20.8,2,other,F
+1.29,-2.57,-22.57,2,other,F
+-14.06,-7.53,-9.18,2,other,F
+6,-29.56,-47.19,3,other,F
+-0.14,-19.29,-28.71,2,other,F
+-6,-17.9,-27.9,2,other,F
+3.75,-12.5,-21.88,3,other,F
+-3.83,-18,-40.17,2,other,F
